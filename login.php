@@ -90,8 +90,8 @@
             $_SESSION['user'] = $row;
             
             // Redirect the user to the private members-only page.
-            header("Location: /three.js/examples/robot.php");
-            die("Redirecting to: /three.js/examples/robot.php");
+            header("Location: /chairhierarchy.php");
+            die("Redirecting to: /chairhierarchy.php");
         }
         else
         {
@@ -108,8 +108,8 @@
     }
 	}
 	else {
-		header("Location: /win.php");
-		die("Redirecting to: /win.php");
+		header("Location: /chairhierarchy.php");
+		die("Redirecting to: /chairhierarchy.php");
 	}
     
 ?>
