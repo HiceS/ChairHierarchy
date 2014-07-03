@@ -24,12 +24,6 @@
 	font-style: normal;
 }
 
-/*
-	Escape Velocity 1.0 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
@@ -331,6 +325,23 @@
 		margin: 0 0 2em 0;
 	}
 	
+	.image-seal
+	{
+		margin: 0 0 2em 0;
+		display: block;
+		vertical-align: middle;
+		width: 200px;
+		height: 200px;
+	
+	}
+	
+	.seal
+	{
+		display: block;
+		width: 100px;
+		height: 100px;
+	}
+	
 	.button
 	{
 		display: inline-block;
@@ -471,12 +482,6 @@
 /* Icons                                                                         */
 /*********************************************************************************/
 
-	/*
-		Powered by:
-		
-		Font Awesome (http://fortawesome.github.com/Font-Awesome/)
-		Font Awesome More (http://gregoryloucas.github.com/Font-Awesome-More/)
-	*/
 
 	.icon
 	{
@@ -1087,6 +1092,13 @@
 		
 		#intro .style3
 		{
+		}
+		
+		#intro .style4
+		{
+			color: #fff;
+			border-radius: 0.35em;
+			box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.25);
 		}
 		
 /*********************************************************************************/
